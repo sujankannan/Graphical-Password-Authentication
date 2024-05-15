@@ -1,0 +1,188 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 11, 2024, 11:42:54 PM
+    Author     : lenovo
+*/
+:root {
+    --primary-color: #fff;
+    --grey-color: #666;
+    --dar-blue-color: hsl(223deg 57% 12%);
+    --medium-font-size: 20px;
+    --small-font-size: 16px;
+}
+h1{
+  background-color: white;
+  color:#FF512F;
+  padding: 40px;
+  margin: 0 0 50px;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  small{
+    font-size: 18px;
+    display: block;
+    text-transform: none;
+    font-weight: 300;
+    margin-top: 10px;
+    color: lighten(#FF512F, 10%);
+  }
+}
+header {
+  background-image: linear-gradient(to right, #FF416C , #FF4B2B);
+  height: 80px;
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  
+}
+header > nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 18px;
+  list-style: none;
+}
+header > nav > ul >li {
+    list-style: none;
+}
+header > nav > ul > li > a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+}
+header > nav > ul > li > a:hover {
+  color: #e8b020;
+  text-transform: uppercase;
+  border-bottom: 2px solid aqua;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.flex-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.name-content {
+  margin-top: 25rem;
+}
+
+.name-content .logo {
+  font-size: 3.5rem;
+  color: #1877f2;
+}
+
+.name-content p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.content form {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 2rem;
+  margin-top:25rem;
+  width: 530px;
+  height: 400px;
+  border-radius: 0.5rem;
+ 
+}
+.content form p{
+    font-size:40px;
+    color: #ff4842;
+}
+.content form lable{
+ padding: 0.8rem 0 1rem 0;
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+}
+.content form input {
+  outline: none;
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+  border-radius:20px;
+   border: 1.8px solid #333333;
+   width:300px
+}
+.content form input[type="file"]{
+    outline: none;
+  padding: 1.8rem 1rem;
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+  border-radius:20px;
+   border: 1.8px solid #333333;
+   width:300px
+}
+.content form input:focus {
+  border: 1.8px solid #1877f2;
+}
+
+.content form .login {
+  outline: none;
+  border: none;
+  background: #1877f2;
+  padding: 0.8rem 1rem;
+  border-radius: 0.4rem;
+  font-size: 1.1rem;
+  color: #fff;
+  width:300px;
+}
+
+.content form .login:hover {
+  background: #0f71f1;
+  cursor: pointer;
+}
+
+.content form a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 0.8rem;
+  color: #1877f2;
+}
+
+form hr {
+  background: #f7f7f7;
+  margin: 1rem;
+}
+
+.content form .create-account {
+  outline: none;
+  border: none;
+  background: #06b909;
+  padding: 0.8rem 1rem;
+  border-radius: 0.4rem;
+  font-size: 1.1rem;
+  color: #fff;
+  width: 75%;
+  margin: 20px 0 0 50px;
+}
+
+form .create-account:hover {
+  background: #03ad06;
+  cursor: pointer;
+}
+
+//End of login
+
+//Img Gallery
+
+
+
+
+
+//End Of img Gallery
