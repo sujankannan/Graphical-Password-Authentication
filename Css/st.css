@@ -1,0 +1,150 @@
+body
+{
+	margin:0;
+	padding: 0;
+	background:url(bg3.jpg);
+	background-size: cover;
+	background-position: top;
+	font-family: sans-serif;
+}
+header{
+  z-index: 999;
+  position: fixed;
+  font-weight: bold;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  transition: 0.6s;
+}
+
+header.sticky{
+  background: teal;
+  padding: 15px 100px;
+  opacity: 0.3;
+  font-weight: bold;
+}
+
+header .brand{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+header .menu{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .menu a{
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 0 30px;
+  padding: 0 10px;
+  border-radius: 20px;
+  transition: 0.3s;
+  transition-property: color, background;
+}
+
+header .menu a:hover{
+  color: #000;
+  background: #fff;
+}
+
+header .btn{
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+  display: none;
+}
+.loginbox{
+	width: 320px;
+	height: 420px;
+	background:rgb(255 255 255 / 6%);;
+	color: gray;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform:translate(-50%,-50%);
+	box-sizing: border-box;  
+	padding: 70px 30px;
+	border-radius: 20px;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+	/*box-shadow: 0px 0px 10px 10px khaki;*/
+}
+.logo{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -12%;
+	left: 35%;
+
+}
+h1{
+        color: whitesmoke;
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+.loginbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.loginbox input
+{color: gray;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.loginbox input[type="text"],input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px; 
+	color: whitesmoke;
+	font-size: 16px; 
+}
+.loginbox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background:green;
+	color: gray;
+	font-size: 18px;
+	border-radius: 20px;  
+	 
+}
+.loginbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background:yellow;
+	color: #000; 
+}
+.loginbox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: gray;
+}
+.loginbox a:hover
+{
+	color: yellow;
+}
