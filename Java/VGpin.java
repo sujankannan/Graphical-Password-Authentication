@@ -22,7 +22,7 @@ import javax.servlet.http.HttpSession;
 
 /**
  *
- * @author ANAND
+ * 
  */
 public class VGpin extends HttpServlet {
     
